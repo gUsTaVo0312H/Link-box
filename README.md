@@ -11,10 +11,6 @@
   <a href="amemo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=licenselmessage-MIT&color=49AA266labelColors">
-</p>
-
 <br>
 
 <p align="center">
