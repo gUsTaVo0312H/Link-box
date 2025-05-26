@@ -190,3 +190,15 @@ footer :hover {
   background: rgba(255, 255, 255, 0.04);
   transition: background 0.3s;
 }
+
+/*media queries---troca de fundo*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./autoescola/Desktop/fundos_tg/fundo_escuro_tg.png);
+  }
+}
+@media (min-width: 700px) {
+  .light {
+    --bg-url: url(./autoescola/Desktop/fundos_tg/fundo_cinza_tg.png);
+  }
+}
