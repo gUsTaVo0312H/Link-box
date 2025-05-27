@@ -27,8 +27,8 @@
   --bg-url: url(./autoescola/Desktop/recorte_fundo_escuro_360x800.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --background-text: rgba(255, 255, 255, 0.1);
-  --background-text-hover: rgba(255, 255, 255, 0.2);
-  --social-link-hover: rgba(255, 255, 255, 0.02);
+  --background-text-hover: rgba(255, 255, 255, 0.1);
+  --social-link-hover: rgba(255, 255, 255, 0.05);
   --switch-bg-url: url(./assets/moon-stars.svg);
   --surface-color: ;
 }
@@ -39,7 +39,7 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --background-text: rgba(0, 0, 0, 0.1);
   --background-text-hover: rgba(0, 0, 0, 0.2);
-  --social-link-hover: rgba(0, 0, 0, 0.04);
+  --social-link-hover: rgba(0, 0, 0, 0.05);
   --switch-bg-url: url(./assets/sun.svg);
   --surface-color: ;
 }
@@ -102,20 +102,25 @@ body {
 }
 #switch button {
   width: 32px;
-  height: 32px;
+  height: 32px; 
   background: #ffff var(--switch-bg-url) no-repeat center;
   border: 0px;
   border-radius: 50%;
-  /*alinhamento*/
+/*alinhamento*/
   position: absolute;
   z-index: 1;
   transform: translateY(-50%);
   top: 50%;
   /* */
+  animation: slide-out 0.5s;
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  /*right: 0;
+  left: initial;*/
+  animation: slide-in 0.5s forwards;
+}
+#switch button:hover {
+  outline: 8px solid var(--social-link-hover);
 }
 #switch span {
   display: block;
@@ -200,5 +205,22 @@ footer :hover {
 @media (min-width: 700px) {
   .light {
     --bg-url: url(./autoescola/Desktop/fundos_tg/fundo_cinza_tg.png);
+  }
+}
+/* animation */
+@keyframes slide-in { 
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
