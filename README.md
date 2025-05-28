@@ -8,7 +8,7 @@
   <a href="8-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="8-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="g-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="amemo-licença">Licença</a>
+  <a href="https://www.instagram.com/ghs_23i/">Contato</a>
 </p>
 
 <br>
@@ -38,3 +38,5 @@ Um agregador de links usado como um cartão de visitas digital, perfeito para se
 
 Você pode conversar com o criador através do
 <a href="https://www.instagram.com/ghs_23i/">Instagram</a>, e la conhecer mais sobre ele e seus projetos. 💻
+
+
