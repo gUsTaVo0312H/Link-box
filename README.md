@@ -1,7 +1,7 @@
 <h1 align="center"> Projeto Link-Box </h1>
 
 <p align="center">
- Produzido por Gustavo S.
+ Produzido por <a href="https://www.instagram.com/ghs_23i/">Gustavo S.</a>
 </p>
 
 <p align="center">
