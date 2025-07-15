@@ -38,5 +38,3 @@ Um agregador de links usado como um cartão de visitas digital, perfeito para se
 
 Você pode conversar com o criador através do
 <a href="https://www.instagram.com/ghs_23i/">Instagram</a>, e la conhecer mais sobre ele e seus projetos. 💻
-
-
